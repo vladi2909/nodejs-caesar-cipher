@@ -1,0 +1,17 @@
+{
+  "name": "caesar-cipher",
+  "version": "1.0.0",
+  "description": "caesar-cipher-cli",
+  "author": "Kozak Vladimir",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "npm run lint && c8 --reporter=html --reporter=text ava --verbose"
+  },
+  "dependencies": {
+    "meow": "^9.0.0"
+  }
+}
